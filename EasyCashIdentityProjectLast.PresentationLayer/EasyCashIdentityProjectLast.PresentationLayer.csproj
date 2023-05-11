@@ -22,4 +22,10 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProjectLast.BusinessLayer\EasyCashIdentityProjectLast.BusinessLayer.csproj" />
+    <ProjectReference Include="..\EasyCashIdentityProjectLast.DataAccessLayer\EasyCashIdentityProjectLast.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
